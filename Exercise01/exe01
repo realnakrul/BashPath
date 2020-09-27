@@ -1,0 +1,7 @@
+#!/bin/bash
+# Script copies contents of the log file /var/log/messages
+# to /var/log/messages.old and deletes original file
+# creates it first as I don't have messages in my system
+touch /var/log/messages
+cp /var/log/messages /var/log/messages.old
+rm /var/log/messages
