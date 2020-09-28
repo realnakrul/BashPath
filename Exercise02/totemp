@@ -1,0 +1,15 @@
+#!/bin/bash
+# Usage ./totmp "file1 file2 .. fileN"
+
+if [ -z $1 ]
+then
+	echo Provide filenames to copy
+	read FILENAMES
+else
+	FILENAMES="$@"
+fi
+
+echo $FILENAMES will be copied to ~
+cp $FILENAMES ~
+
+exit 0
