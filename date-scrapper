@@ -1,0 +1,9 @@
+#!/bin/bash
+
+clear
+RAWDATE=$(date +%d-%m-%y)
+echo Current date is: $RAWDATE
+echo -------------------------
+echo Day is: ${RAWDATE:0:2}
+echo Month is: ${RAWDATE:3:2}
+echo Year is: ${RAWDATE:6:2}

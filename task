@@ -1,0 +1,8 @@
+Write a script that puts the result of the command "date +%d-
+%m-%y" in a variable. Use Pattern Matching on this variable to 
+show 3 lines, displaying the date, month and year. So the result
+should look as follows:
+
+The day is 05
+The month is 01
+The year is 15
